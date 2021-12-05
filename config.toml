@@ -1,4 +1,4 @@
-baseURL = 'http://tastycode.me/'
+baseURL = 'http://www.tastycode.me/'
 languageCode = 'en-us'
 title = 'Tastycode'
 theme = 'terminal'
