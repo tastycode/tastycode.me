@@ -1,7 +1,7 @@
 baseURL = 'http://www.tastycode.me/'
 languageCode = 'en-us'
 title = 'Tastycode'
-theme = 'terminal'
+theme = 'ananke'
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -47,8 +47,17 @@ theme = 'terminal'
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "tastycode"
+  site = "http://twitter.com/tastycode"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/tastycode"
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://instagram.com/tastycode"
+
 
 [languages]
   [languages.en]
@@ -73,8 +82,8 @@ theme = 'terminal'
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
-        url = "/about"
+        name = "Projects"
+        url = "/projects"
       [[languages.en.menu.main]]
         identifier = "Videos"
         name = "Music Videos"
@@ -87,13 +96,5 @@ theme = 'terminal'
         identifier = "Tumblr"
         name = "Tumblr"
         url = "https://vajrapani666.tumblr.com"
-      [[languages.en.menu.main]]
-        identifier = "Insta"
-        name = "Insta"
-        url = "https://www.instagram.com/tastycode"
-      [[languages.en.menu.main]]
-        identifier = "Github"
-        name = "Github"
-        url = "https://github.com/tastycode"
 
 
